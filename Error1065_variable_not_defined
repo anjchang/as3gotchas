@@ -1,0 +1,6 @@
+addThing movieclipname
+ReferenceError: Error #1065: Variable movieclipname is not defined.
+	at global/flash.utils::getDefinitionByName()
+	at storywide_118ios/addThing()[storywide_118ios::frame1:138]
+	at storywide_118ios/onkeyPress()[storywide_118ios::frame1:45]
+Cannot display source code at this location.
