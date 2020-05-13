@@ -4,3 +4,5 @@ ReferenceError: Error #1065: Variable movieclipname is not defined.
 	at storywide_118ios/addThing()[storywide_118ios::frame1:138]
 	at storywide_118ios/onkeyPress()[storywide_118ios::frame1:45]
 Cannot display source code at this location.
+
+It turns out that the symbol import didn't work well, so you have to relink the symbol in the library.
