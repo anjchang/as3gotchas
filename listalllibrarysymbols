@@ -1,0 +1,3 @@
+trace(ApplicationDomain.currentDomain.getQualifiedDefinitionNames());
+
+https://stackoverflow.com/questions/12084097/how-to-list-objects-in-library-using-as3-at-runtime
