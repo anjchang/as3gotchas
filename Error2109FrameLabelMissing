@@ -1,0 +1,17 @@
+Error #2109 Frame Label missing
+
+Dragging insect causes a problem with missing frame, find the difference between the current
+file and the prior working file
+
+ArgumentError: Error #2109: Frame label instance13 not found in scene instance13.
+	at flash.display::MovieClip/gotoAndStop()
+	at testnew_fla::Wardrobe_13/onGarmentClick()[testnew_fla.Wardrobe_13::frame1:8]
+Cannot display source code at this location.
+
+
+ArgumentError: Error #2109: Frame label spawn not found in scene spawn.
+	at flash.display::MovieClip/gotoAndPlay()
+	at Hole/stopDragging()[Hole::frame1:105]
+
+It turns out hta the assests for the Hole were half done. So I had to follow some steps to make it work
+Now it is necessray 
