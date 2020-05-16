@@ -1,0 +1,7 @@
+Error when checking to see if a key is in an associative array.
+Use the word "in" to check if its there.
+
+var item:Object = {name:"Tom"};
+
+trace("age" in item);  //  return false 
+trace("name" in item);  //  return
