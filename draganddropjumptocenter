@@ -1,0 +1,6 @@
+When you create a shape, it's "drag point" is at (0,0), or if you premake the shape in Flash, the upper left corner of the "rectangle" that surrounds the figure. When you click on the shape, your mouse jumps to this "drag point."
+
+Apparently, if the drag point does not actually lie on the body of the shape, drag and drop doesn't work. So the ovals I was using earlier didn't work because the drag point was off the shape. Your example did work because it was created at (0,0) and your drag point was at (0,0). But if you draw a circle that isn't at (0,0), like drawCircle(200,200,100) (i.e. draw a circle at point (200,200) with a radius of 100), then you encounter the problem that I have because the drag point is not on the shape.
+
+The solution then is to create the circle at 0,0, then move it to the position you want. It's strange, but I finally got it to work.
+https://stackoverflow.com/questions/9595441/drag-wont-stop-with-actionscript-3
